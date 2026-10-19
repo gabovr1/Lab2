@@ -43,4 +43,4 @@ En la versión final se entregan los archivos en el mismo nivel de `src` para fa
 Cada integrante del grupo aportó código en diferentes clases y métodos, lo cual se puede verificar en el historial de commits del repositorio en GitHub.
 
 ## Bonus
-Se implementaron los patrones **Strategy**, **Observer** y **Factory** como parte del reto adicional.
+Se implementó el patron **Strategy**.
