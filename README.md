@@ -42,5 +42,11 @@ En la versión final se entregan los archivos en el mismo nivel de `src` para fa
 ## Aportes de los integrantes
 Cada integrante del grupo aportó código en diferentes clases y métodos, lo cual se puede verificar en el historial de commits del repositorio en GitHub.
 
+## Porqué se desarrolló en diferentes paquetes?
+
+Desarrollo en Paralelo: Un integrante del equipo puede trabajar modificando las entidades en model (ej. agregar atributos a los productos) mientras otro compañero implementa nuevas reglas de negocio o patrones en service, evitando conflictos molestos de fusión (merge conflicts) en el control de versiones de Git.
+
+Mantenibilidad: Si hay un error en los cálculos, sabemos exactamente dónde buscar (service); si hay un error en la estructura de los datos, sabemos que está en model.
+
 ## Bonus
 Se implementó el patron **Strategy**.
